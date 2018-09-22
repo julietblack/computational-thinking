@@ -1,9 +1,10 @@
+import time 
 def insertion_sort (data):
    j=1
-   while j<len(data)
-    key=data(j)
+   while j<len(data):
+    key=data[j]
     i=j-1
-    while i> -1 and data(i)>key:
+    while i> -1 and data[i]>key:
         data[i+1]=data[i]
         i=i-1
     data[i+1]=key
